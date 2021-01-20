@@ -1,0 +1,169 @@
+
+*{
+    font-family: Helvetica,Arial ;
+    margin: 0;
+    padding: 0;
+}
+body h1,h6{
+    text-align: center;
+    font-weight: 300;
+    text-shadow: gray 1px 1px 2px;
+}
+
+
+/*header*/
+#nome{
+ margin-right: 550px;
+color: white;
+font-size: 20pt;
+}
+#nome:hover{
+    color: darkgray; 
+}
+
+
+/*------------------------------*/
+
+/*box de informação */
+#fundo{
+    background-image: url("../imagem/Accenture-Why-Big-Data-Needs-Visualization-Succeed-marquee.jpg");
+    width: 100%;
+    min-height: 600px;
+    background-size: 100%;
+    opacity: .9;
+    display: flex;
+    padding: 80px;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 20px;
+}
+#caixa1{
+    display: flex;
+}
+#info{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border: solid 1px gray;
+    box-shadow: #111111 1px 0 5px;
+    padding-left: 10px 15px;
+    border-radius: 0 20px 20px 0;
+    text-align: left;
+}
+
+#foto{
+    width:40%;
+    height: 465px;
+    background-image:url("../imagem/Jean.png") ;/*linear-gradient(180deg,black, rgb(63, 63, 211), black);*/
+    background-repeat: no-repeat;
+    background-position-y:-50px ;
+    opacity: .9;
+    margin-left: 10%;
+    
+}
+
+#nome-funçao{
+padding-bottom: 0;
+margin: 50px;
+}
+#dados{
+    padding-bottom: 0;
+    margin: 50px ;
+    }
+/* tela de habilidade*/
+#habilidades{
+    width: 100%;
+    height: 400px;
+    font-size: 1.2rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    
+}
+.list{
+    width: 50%;
+    height: 420px;
+    padding: 40px;
+    background-color: rgb(226, 226, 226);
+    text-align: left;
+    box-shadow: gray 2px 2px 3px;
+
+}
+.list2{
+    width: 50%;
+    min-height: 420px;
+    padding: 40px;
+    background-color: white;
+    text-align: left;
+    border:solid 3px rgb(226, 226, 226) ;
+    box-shadow: gray 2px 2px 3px;
+}
+
+
+
+/*--------------------------------------------*/
+#formação{
+    width: 100%;
+    height: 120px;
+    font-size: 1.2rem;
+    font-weight: 350;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    background-color:rgb(226, 226, 226);
+    padding: 30px;
+    border-top: solid 3px white;
+}
+
+/*rodapé-------------*/
+
+footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+#iconeCont{
+    display: flex;
+    padding: 30px;
+
+}
+ul img{
+    display: flex;
+    width: 50px;
+    height: auto;
+    padding: 0 10px;
+    margin-top: -3px;
+
+}
+ul img:hover{
+    display: flex;
+    width: 51px;
+    height: auto;
+    padding: 0 5px;
+    opacity:.5 ;
+
+}
+footer ul{
+    padding: 20px;
+}
+footer ul P{
+    color: white;
+    margin-right: 300px;
+    margin-left: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
